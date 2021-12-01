@@ -5,10 +5,12 @@
   
 int main()
 {
-	char *input = malloc(10);
-	char *scret = malloc(10);
+	char *input = malloc(16);
+	char *scret = malloc(16);
+	scret = "ThisIsScretValue";
 
 	printf("input your string :");
+	fflush(stdout);
 
 	read(0, input, 100); // Heap buffer overflow
 	printf("input data = %s\n", input);

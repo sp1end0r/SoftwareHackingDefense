@@ -47,12 +47,17 @@ gdb-peda$ r <argument>
     - 
 ```
 gdb-peda$ s <the number of line : default = 1>
-gdb-peda$ n >the number of line :default = 1>
+gdb-peda$ n <the number of line :default = 1>
 ```
 
 * what is different "s(step)" and "n(next)"?
     - when instruction to execute is "call", s gose inside the function and executes the instruction.
     - but, n dosen't go inside the function and execute next instruction.
+
+- continue program after breakpoint until program terminated or meets other breakpoint.
+```
+gdb-peda$ c
+```
 
 - view data in regiser
 

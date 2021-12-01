@@ -1,18 +1,23 @@
 #include <stdio.h>
 
-void our_swap(int* num1, int* num2){
-	int temp = *a;
-	*a = *b;
-	*b = temp;
+int foo(int a, int b){
+	int num1 = 5;
+	int num2 = 6;
+	int result;
+
+	result = a+b+num1+num2;
+
+	return result;
 }
 
 int main(){
 	 int a = 10;
 	 int b = 10;
+	 int res;
 
-	 printf("before swap, a = %d b= %d\n", a, b);
-	 our_swap(&a, &b);
-	 printf("after swap, a = %d, b = %d\n", a, b);
+	 printf("call foo!\n");
+	 res = foo(a,b)
+	 printf("foo's return is %d\n", res);
 
 	 return 0;
 }

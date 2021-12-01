@@ -16,7 +16,7 @@ int main(){
 	 int res;
 
 	 printf("call foo!\n");
-	 res = foo(a,b)
+	 res = foo(a,b);
 	 printf("foo's return is %d\n", res);
 
 	 return 0;

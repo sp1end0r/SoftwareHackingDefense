@@ -14,6 +14,12 @@
 ```
 $ gdb [Executable File]
 ```
+
+- close gdb 
+```
+gdb-peda$ q
+```
+
 - disassembly function
 ```
 gdb-peda$ disassemble [function name]

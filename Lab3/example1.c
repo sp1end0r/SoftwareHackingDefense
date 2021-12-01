@@ -1,15 +1,23 @@
 #include <stdio.h>
-#define PASSWORD "C4ny0us22th1sSlmpl2C0D2"
+
+int foo(int a, int b){
+	int num1 = 5;
+	int num2 = 6;
+	int result;
+
+	result = a+b+num1+num2;
+
+	return result;
+}
 
 int main(){
-	char temp[23];
-	printf("input password: ");
-	scanf("%s", temp);
+	 int a = 10;
+	 int b = 10;
+	 int res;
 
-	if(temp == PASSWORD){
-		printf("Correct!\n");
-	}
-	else printf("%s is not password :(\n", temp);
+	 printf("call foo!\n");
+	 res = foo(a,b)
+	 printf("foo's return is %d\n", res);
 
-	return 0;
+	 return 0;
 }

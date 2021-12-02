@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #define PASSWORD "C4ny0us22th1sSlmpl2C0D2"
 
 int main(){
@@ -6,7 +7,7 @@ int main(){
 	printf("input password: ");
 	scanf("%s", temp);
 
-	if(temp == PASSWORD){
+	if(!strcmp(temp, PASSWORD)){
 		printf("Correct!\n");
 	}
 	else printf("%s is not password :(\n", temp);

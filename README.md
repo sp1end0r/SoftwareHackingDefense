@@ -3,7 +3,7 @@
     - Oracle Virtual Machine
         - download link : https://www.oracle.com/kr/virtualization/technologies/vm/downloads/virtualbox-downloads.html
     - virtual machine image
-        - download link :
+        - download link : https://drive.google.com/file/d/1qNV3zVNqTh2_LTlNQ623ySyhPZnvFdgA/view?usp=sharing
 
 - platform
     - Ubuntu 20.04
